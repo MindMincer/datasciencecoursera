@@ -74,3 +74,4 @@ setkey(dt, subject, activity, featDomain, featAcceleration, featInstrument,
     featJerk, featMagnitude, featVariable, featAxis)
 dtTidy <- dt[, list(count = .N, average = mean(value)), by = key(dt)]
 
+write.table(dtTidy, file = "./my_data.txt")
