@@ -24,5 +24,5 @@ You should create one R script called run_analysis.R that does the following.
 Files
 --------------------------
 
-1. run_analysis.R - R script that provides all the required steps and generates a file ```my_data.txt``` in working directory.
-2. codebook.md - dataset description with keys, summuries, and all the relevant information.
+1. ```run_analysis.R``` - R script that provides all the required steps and generates a file ```my_data.txt``` in working directory.
+2. ```codebook.md``` - dataset description with keys, summuries, and all the relevant information.
